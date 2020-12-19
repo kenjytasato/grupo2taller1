@@ -48,7 +48,7 @@ public class driver {
     {
         setupClass();
         setupTest();
-
+/*
         try{
             String prop_path = System.getProperty("user.dir")+System.getProperty("file.separator")+"env/variables.properties";
             FileReader readeri =new FileReader(prop_path);
@@ -61,7 +61,7 @@ public class driver {
             System.out.println("el archivo de variables del sitio no se cargo de manera adecuada");
             e.printStackTrace();
         }
-        PageFactory.initElements(this.driver, this);
+        PageFactory.initElements(this.driver, this);*/
     }
     public void explicitWait(WebElement element)
     {
